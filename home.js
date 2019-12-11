@@ -6,7 +6,7 @@ document.getElementById('connect-ethereum').addEventListener('click', () => {
         .then(() => {
             console.log('address: ', web3.currentProvider.selectedAddress);
             if(web3.currentProvider && web3.currentProvider.selectedAddress){
-                window.location.href = "/game.html"
+                window.location.href = "/game"
             }else{
                 throw {message: "MetaMask not connected"}
             }
