@@ -1,0 +1,25 @@
+{
+  "name": "utopia-website",
+  "description": "",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:deathcap/voxelmetaverse.git"
+  },
+  "dependencies": {
+    "ever": "0.0.3",
+    "web3": "^1.2.4"
+  },
+  "engine": {
+    "node": "0.12.x"
+  },
+  "devDependencies": {
+    "beefy": "^2.1.6",
+    "browserify": "^13.0.1",
+    "watchify": "^3.7.0"
+  },
+  "scripts": {
+    "start": "beefy home.js:home-bundle.js --watchify --port 3001 --debug",
+    "build": "browserify home.js > home-bundle.js --debug"
+  }
+}
