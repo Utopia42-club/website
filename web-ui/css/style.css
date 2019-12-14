@@ -743,18 +743,18 @@ section.spacer blockquote cite {
 
 /* === section services === */
 
-section#services h2 {
+section#technologies h2 {
 	font-size: 22px;
 	margin-bottom: 15px;
 	margin-top: 10px;
 	text-align:center;
 }
-section#services p {
+section#technologies p {
 	margin:10px;
 }
 
 
-section#services .service-box {
+section#technologies .service-box {
 	text-align: center;
 	padding: 20px;
 	-webkit-transition: all 0.3s ease-in-out;
@@ -763,16 +763,16 @@ section#services .service-box {
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
-section#services .span3:hover {
+section#technologies .span3:hover {
 	background:#e3e3e3;
 }
 
-section#services .service-box h2 {
+section#technologies .service-box h2 {
 	color: #f7f7f7;
 	font-weight: 700;
 }
 
-section#services.section.orange .service-box:hover {
+section#technologies.section.orange .service-box:hover {
 	background:#f36518;
 }
 
@@ -1695,10 +1695,10 @@ i.icon-white {
  display: block;
 }
 
- section#services h2 {
+ section#technologies h2 {
  margin-bottom: 0.25em;
 }
- section#services h2, section#services ul {
+ section#technologies h2, section#technologies ul {
  text-align: center;
 }
 		
